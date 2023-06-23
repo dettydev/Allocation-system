@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(50, 50, 112);
+    color: white;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  input, select, button {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: black;
+  }
+  
+ #allocationStatus {
+    color: red;
+    margin-top: 10px;
+ }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allocation system</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Room Allocation System</h2>
+
+        <h3>Add Participant:</h3>
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput">
+        <label for="roleSelect">Role:</label>
+        <select id="roleSelect">
+            <option value="facilitator">Facilitator</option>
+            <option value="smart-contract">Smart Contract Developer</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="server-side">Server-side Developer</option>
+        </select>
+        <label for="skillSelect">Skill Proficiency:</label>
+        <select id="skillSelect">
+            <option value="all">All</option>
+            <option value="smart-contract">Smart Contract</option>
+            <option value="frontend">Frontend</option>
+            <option value="server-side">Server-side</option>
+        </select>
+        <button onclick="addParticipant()">Add</button>
+
+        <h3>Participants:</h3>
+        <ul id="participantsList"></ul>
+
+        <h3>Room Allocation:</h3>
+
+        <div id="allocationStatus"></div>
+            <table id="allocationTable">
+                <tr>
+                    <th>Bedroom</th>
+                <th>Facilitator</th>
+                <th>Developers</th>
+                </tr>
+            </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
